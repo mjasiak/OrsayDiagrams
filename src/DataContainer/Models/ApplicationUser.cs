@@ -9,5 +9,8 @@ namespace DataContainer.Models
     // Add profile data for application users by adding properties to the ApplicationUser class
     public class ApplicationUser : IdentityUser
     {
+        //Foreign Key
+        public virtual Branch Branch { get; set; }
+        public virtual ICollection<Petition> Petitions { get; set; }
     }
 }

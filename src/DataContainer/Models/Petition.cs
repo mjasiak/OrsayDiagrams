@@ -14,5 +14,8 @@ namespace DataContainer.Models
         public DateTime When_folded { get; set; }
 
         public DateTime When_applied { get; set; }
+
+        //Foreign Key
+        public virtual ApplicationUser ApplicationUser { get; set; }
     }
 }
