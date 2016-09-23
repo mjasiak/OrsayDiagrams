@@ -14,6 +14,7 @@ namespace DataContainer.Models
         public string City { get; set; }
 
         //Foreign Key
+        public int BranchID { get; set; }
         public virtual Branch Branch { get; set; }
     }
 }

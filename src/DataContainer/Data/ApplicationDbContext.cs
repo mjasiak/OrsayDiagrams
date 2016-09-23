@@ -22,5 +22,11 @@ namespace DataContainer.Data
             // For example, you can rename the ASP.NET Identity table names and more.
             // Add your customizations after calling base.OnModelCreating(builder);
         }
+
+        public DbSet<ApplicationUser> ApplicationUser { get; set; }
+        public DbSet<Branch> Branch { get; set; }
+        public DbSet<Address> Address { get; set; }
+        public DbSet<Diagram> Diagram { get; set; }
+        public DbSet<Petition> Petition { get; set; }
     }
 }
