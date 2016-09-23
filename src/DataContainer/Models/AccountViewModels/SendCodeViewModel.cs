@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
-namespace OrsayDiagrams.Models.AccountViewModels
+namespace DataContainer.Models.AccountViewModels
 {
     public class SendCodeViewModel
     {

@@ -1,7 +1,8 @@
-﻿{
+{
   "userSecretsId": "aspnet-OrsayDiagrams-5ec27f27-dbf2-4e5c-bb9b-1e94da57ab2e",
 
   "dependencies": {
+    "DataContainer": "1.0.0-*",
     "Microsoft.ApplicationInsights.AspNetCore": "1.0.0",
     "Microsoft.AspNetCore.Authentication.Cookies": "1.0.0",
     "Microsoft.AspNetCore.Diagnostics": "1.0.0",
@@ -58,7 +59,7 @@
   },
 
   "frameworks": {
-    "net452": { }
+    "net461": { }
   },
 
   "buildOptions": {

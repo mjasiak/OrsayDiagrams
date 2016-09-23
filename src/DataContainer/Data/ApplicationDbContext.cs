@@ -4,9 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using OrsayDiagrams.Models;
+using DataContainer.Models;
 
-namespace OrsayDiagrams.Data
+namespace DataContainer.Data
 {
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {

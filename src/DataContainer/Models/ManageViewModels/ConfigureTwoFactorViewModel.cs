@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
-namespace OrsayDiagrams.Models.ManageViewModels
+namespace DataContainer.Models.ManageViewModels
 {
     public class ConfigureTwoFactorViewModel
     {

@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace OrsayDiagrams.Models.AccountViewModels
+namespace DataContainer.Models.AccountViewModels
 {
     public class ForgotPasswordViewModel
     {
