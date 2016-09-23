@@ -8,9 +8,9 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.Extensions.Logging;
-using OrsayDiagrams.Models;
-using OrsayDiagrams.Models.AccountViewModels;
 using OrsayDiagrams.Services;
+using DataContainer.Models;
+using DataContainer.Models.AccountViewModels;
 
 namespace OrsayDiagrams.Controllers
 {

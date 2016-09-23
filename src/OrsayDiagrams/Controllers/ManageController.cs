@@ -6,9 +6,9 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using OrsayDiagrams.Models;
-using OrsayDiagrams.Models.ManageViewModels;
 using OrsayDiagrams.Services;
+using DataContainer.Models;
+using DataContainer.Models.ManageViewModels;
 
 namespace OrsayDiagrams.Controllers
 {
